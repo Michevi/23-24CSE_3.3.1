@@ -1,27 +1,28 @@
-Attendance = []
-
-Attendance.append("zaine")
-Attendance.append("zay")
-Attendance.append("zuko")
-Attendance.append("zofia")
-Attendance.append("zander")
-Attendance.append ("zack")
-Attendance.append("ben")
-Attendance.append("boolbilly")
-Attendance.append("booboo")
-Attendance.append("brycen")
-Attendance.append("brooke")
-Attendance.append("blake")
-Attendance.append("mike")
-Attendance.append("maddox")
-Attendance.append("marshall")
-Attendance.append("marshawn")
-Attendance.append("mickey")
-Attendance.append("melissa")
-
-
-here
+Students = []
+Present = []
+Absent = []
+Students.append("zaine")
+Students.append("zay")
+Students.append("zuko")
+Students.append("zofia")
+Students.append("zander")
+Students.append ("zack")
+Students.append("ben")
+Students.append("boolbilly")
+Students.append("booboo")
+Students.append("brycen")
+Students.append("brooke")
+Students.append("blake")
+Students.append("mike")
+Students.append("maddox")
+Students.append("marshall")
+Students.append("marshawn")
+Students.append("mickey")
+Students.append("melissa")
 
 
+for student in Students:
+    here = input("who would you like to make Absent or Present")
+    if here == "yes":
+        Present.append(student)
 
-    print("yes")
