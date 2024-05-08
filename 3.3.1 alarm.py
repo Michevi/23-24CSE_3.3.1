@@ -3,15 +3,22 @@ Present = []
 Absent = []
 
 
+def check_attendance():
+    for stud in range(len(Students)):
+        question = "Is " + Students[stud] + " here?"
+        answer = input(question)
 
-for stud in range(len(Students)):
-   print(Students[stud])
+        if answer == "yes":
 
-input(" would you like to change anyones attendence? ")
-if "yes":
-    input(" Input Students Name ")
-else:
+            Present.append(Students[stud])
 
-    if ("Students" in Students):
+        else:
+            Absent.append(Students[stud])
+
+check_attendance()
+
+
+
+
 
 
